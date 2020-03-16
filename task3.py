@@ -1,7 +1,7 @@
 from math import *
 import matplotlib.pyplot as plt
 
-N = 1000
+N = 10000
 dt = 1.3301
 t = 0.01
 T = [[cos(dt * i + t), sin(dt * i + t)] for i in range(1, N + 2)]
